@@ -1,0 +1,5 @@
+l=eval(input("enter length"))
+b=eval(input("enter breadth"))
+h=eval(input("enter height"))
+v=(l*b*h)
+print(v)
