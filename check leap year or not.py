@@ -1,5 +1,7 @@
-year = int(input("enter the year"))
-if (year % 4 == 0 and year % 100!= 0) or (year % 400 == 0):
-    print("given yera is a leap year")
+a = int(input("enter first angle"))
+b = int(input("enter second angle"))
+c = int(input("enter third  angle"))
+if  a+b+c == 180:
+    print("the angles form a triangle")
 else:
-    print("given year is not a leap year")
+    print("the angles do not form triangle")
